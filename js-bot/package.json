@@ -1,0 +1,15 @@
+{
+  "name": "js-bot",
+  "version": "0.0.1",
+  "description": "A wasmbots bot implemented in JS",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@bytecodealliance/jco": "^1.12.0"
+  }
+}

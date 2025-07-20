@@ -1,0 +1,21 @@
+package wasmbots:bot@0.0.1;
+
+interface robot {
+    // Ping the bot; returns whatever is passed in
+    ping: func(x: u32) -> u32;
+
+    // Returns the bot's name
+    name: func() -> string;
+}
+
+// The host interface defines the input/output facilities
+// of the host environment, mostly so that robots have the
+// ability to communicate to the host and vice versa.
+interface host {
+
+}
+
+world arena {
+    export robot;
+}
+
