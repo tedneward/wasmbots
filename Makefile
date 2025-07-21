@@ -12,7 +12,8 @@ interfaces:
 
 js-bot:
 	@echo "Building JavaScript bot..."
-	cd js-bot && echo "???" && cd ..
+	pwd
+	jco componentize --disable all --wit interfaces/bot.wit --world-name arena --out js-bot/bot.wasm js-bot/bot.js
 
 py-bot:
 	@echo "Building Python bot..."
